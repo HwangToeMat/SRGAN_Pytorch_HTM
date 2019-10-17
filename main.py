@@ -70,7 +70,7 @@ def main():
         G_Loss = G_Loss.cuda()
         D_Loss = D_Loss.cuda() # set model&loss for use gpu
 
-    print("===> Setting Optimizer")
+    print("===> Setting Optimizer")    
     G_optim = optim.Adam(G_Net.parameters())
     D_optim = optim.Adam(D_Net.parameters())
 
@@ -78,7 +78,7 @@ def main():
         if os.path.isfile(opt.pretrained):
             G_optim.load_state_dict(checkpoint['G_optim_state_dict'])
             D_optim.load_state_dict(checkpoint['D_optim_state_dict'])
-            print("===> Setting Pretrained Optimizer")
+            print("===> Setting Pretrained Optimizer")  
 
     print("=> start epoch '{}'".format(epoch))
     print("===> Training")
