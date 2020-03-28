@@ -273,7 +273,7 @@ optimizer= 'Adam'
 ```
 -> 30 hours for train
 
-### Result()
+### Result[LR(left), SR(right)]​
 
 <img src="https://github.com/HwangToeMat/HwangToeMat.github.io/blob/master/Paper-Review/image/SRGAN/image8.png?raw=true" style="max-width:100%;margin-left: auto; margin-right: auto; display: block;">
 
