@@ -1,4 +1,4 @@
-# SRGAN_Pytorch_HTM
+# SRGAN_Pytorch_HTM ![HitCount](http://hits.dwyl.com/HwangToeMat/SRGAN_Pytorch_HTM.svg)
 ## Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network
 
 ## 모델 구조
